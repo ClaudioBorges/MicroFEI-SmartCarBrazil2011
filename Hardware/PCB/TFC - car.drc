@@ -1,0 +1,264 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+C:\Users\Osaka\TFC Brazil\Layouts\TFC - car.drc:
+
+
+Design Clearances (in mils):
+-------------------------------
+Silk Screen Clearance:  12.0mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in mils):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                     9.8       9.8      15.0       9.8       9.8       9.8
+Bottom                  9.8       9.8      15.0       9.8       9.8       9.8
+
+
+Net Class Clearances (in mils):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In mils):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in mils):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       On
+Clearance Violations:                   On
+Text Violations:                        Off
+Same-Parent-Component Pad Violations:   On
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       On
+Net Length Violations:                  Off
+Silk Violations:                        Off
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   On
+Drill Violations:                       On
+
+----------------------------------------------------------------------
+
+25-Jul-11  19:42                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST COMPARE:
+
+Netlist filename: C:\Users\Osaka\TFC Brazil\Layouts\TFC - car.net
+Error: Component R11 found on the board but not in the netlist.
+Error: Net:Node VIDEO_DC:R11-1 found on the board but not in the netlist.
+Error: Net:Node NET00007:R11-2 found on the board but not in the netlist.
+
+0 warning(s) detected.
+3 error(s) detected.
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED PINS:
+
+Error 1 -- Unconnected pin:
+   * Pad PF8-1 at (4646.5, 653.5) mils
+Error 2 -- Unconnected pin:
+   * Pad PF6-1 at (4646.5,5046.5) mils
+Error 3 -- Unconnected pin:
+   * Pad PF3-1 at (1192.5, 992.5) mils
+Error 4 -- Unconnected pin:
+   * Pad PF7-1 at ( 653.5, 653.5) mils
+Error 5 -- Unconnected pin:
+   * Pad PF4-1 at (4105.9, 992.5) mils
+Error 6 -- Unconnected pin:
+   * Pad PF1-1 at (1192.5,2331.1) mils
+Error 7 -- Unconnected pin:
+   * Pad PF5-1 at ( 653.5,5047.2) mils
+Error 8 -- Unconnected pin:
+   * Pad PF2-1 at (4100.0,2325.0) mils
+
+0 warning(s) detected.
+8 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+----------------------------------------------------------------------
+
+25-Jul-11  19:42                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist Compare:
+	Errors:   3
+	Warnings: 0
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unconnected Pins:
+	Errors:         8
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+----------------------------------------------------------------------
+
+25-Jul-11  19:42                                            Page    3
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Drilling:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+25-Jul-11  19:42                                            Page    4
+
